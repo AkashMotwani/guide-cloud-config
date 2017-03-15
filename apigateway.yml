@@ -6,3 +6,5 @@ server:
 zuul:
     routes:
         book:
+            path: /movies/**
+            url: http://localhost:9000
