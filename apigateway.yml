@@ -1,0 +1,10 @@
+ribbon:
+    eureka:
+        enabled: false
+server:
+    port: 8081
+zuul:
+    routes:
+        book:
+            path: /movies/**
+            url: http://localhost:9000
