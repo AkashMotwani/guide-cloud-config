@@ -8,3 +8,6 @@ zuul:
         book:
             path: /movies/**
             url: http://localhost:9000
+        customer-by-address:
+            path: /customer-by-address/**
+            url: http://localhost:9098
