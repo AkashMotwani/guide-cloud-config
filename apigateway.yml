@@ -14,6 +14,6 @@ zuul:
         customer-by-name:
             path: /customer-by-name/**
             url: http://localhost:9099
-        customer-by-address:
+        customer-by-lastname:
             path: /customer-by-lastname/**
             url: http://localhost:9089
